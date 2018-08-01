@@ -2,12 +2,12 @@
  * Created by Administrator on 2018/5/10.
  */
 $(function () {
-    var homeImgGray = './images/icon/home_icongra.png';
-    var homeImgOrange = './images/icon/home_iconora.png';
-    var actiGray = './images/icon/acti_icongra.png';
-    var actiOrange = './images/icon/acti_iconora.png';
-    var meGray = './images/icon/megra.png';
-    var meOrange = './images/icon/meora.png';
+    var homeImgGray = './res/images/icon/home_icongra.png';
+    var homeImgOrange = './res/images/icon/home_iconora.png';
+    var actiGray = './res/images/icon/acti_icongra.png';
+    var actiOrange = './res/images/icon/acti_iconora.png';
+    var meGray = './res/images/icon/megra.png';
+    var meOrange = './res/images/icon/meora.png';
     //获取首页的img
     var img = $(".footer_nav :nth-child(1) img");
     var src = $(img).attr('src');

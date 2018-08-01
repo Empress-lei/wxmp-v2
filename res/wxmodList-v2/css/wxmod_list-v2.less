@@ -68,6 +68,22 @@
     border-bottom: 1px solid #fff !important;
     border-top: none !important;
   }
+  .am-menu-offcanvas1 .am-menu-nav > li > a:after {
+    content: "" !important;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.3rem;
+  }
+  .am-collapse {
+    display: block !important;
+  }
+  .am-offcanvas-bar {
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out,
+    -webkit-transform 0.5s ease-in-out;
+  }
   .am-menu-offcanvas1 .am-menu-nav {
     border-bottom: none;
     -webkit-box-shadow: none !important;
@@ -93,6 +109,10 @@
     color: #333 !important;
     border-bottom: 1px solid #fff;
   }
+  .list_sele > li > .current_a {
+    color: #FF4539 !important;
+    font-weight: 800  !important;
+  }
   .am-menu-offcanvas1 .am-menu-nav > .am-open > a, .am-menu-offcanvas1 .am-menu-nav > li > a:hover, .am-menu-offcanvas1 .am-menu-nav > li > a:focus {
     background-color: #f2f2f2 !important;
   }
@@ -115,6 +135,139 @@
       display: block;
       width: 100%;
       height: 100%;
+    }
+  }
+
+  .modal_content {
+    padding: 54/37.5rem 0 40/37.5rem;
+    .sele_btn {
+      width: 345/37.5rem;
+      height: 42/37.5rem;
+      background-color: #F2F2F2;
+      margin: 20/37.5rem auto 0;
+      text-align: center;
+      font-size: 13/37.5rem;
+      color: #666;
+      line-height: 40/37.5rem;
+      -webkit-border-radius: 50/37.5rem 50/37.5rem;
+      -mox-border-radius: 50/37.5rem 50/37.5rem;
+      -ms-border-radius: 50/37.5rem 50/37.5rem;
+      -o-border-radius: 50/37.5rem 50/37.5rem;
+      border-radius: 50/37.5rem 50/37.5rem;
+    }
+    .avtivity_list {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding: 30/37.5rem  5rem/37.5rem;
+      .activity_ul {
+        width: 100%;
+        margin-left: -4/37.5rem;
+        .no_buyactivi {
+          width: 100%;
+          padding-top: 170/37.5rem;
+          .nobuy_img {
+            display: block;
+            margin: 0 auto;
+            width: 146/37.5rem;
+            height: 146/37.5rem;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border-radius: 50%;
+          }
+          .nobuy_text {
+            text-align: center;
+            font-size: 18/37.5rem;
+            line-height: 25/37.5rem;
+            color: #999;
+            padding-top: 16/37.5rem;
+          }
+        }
+        .creat_li {
+          width: 47.2%;
+          height: 175/37.5rem;
+          float: left;
+          margin-left: 9/37.5rem;
+          margin-bottom: 9/37.5rem;
+          position: relative;
+          -webkit-box-shadow: 2/37.5rem 2/37.5rem 2/37.5rem rgba(161, 161, 161, 0.3);
+          -moz-box-shadow: 2/37.5rem 2/37.5rem 2/37.5rem rgba(161, 161, 161, 0.3);
+          -ms-box-shadow: 2/37.5rem 2/37.5rem 2/37.5rem rgba(161, 161, 161, 0.3);
+          -o-box-shadow: 2/37.5rem 2/37.5rem 2/37.5rem rgba(161, 161, 161, 0.3);
+          box-shadow: 2/37.5rem 2/37.5rem 2/37.5rem rgba(161, 161, 161, 0.3);
+          .x_div {
+            .x_img {
+              width: 100%;
+              height: 118/37.5rem;
+            }
+            .x_con {
+              width: 100%;
+              padding: 10/37.5rem 10/37.5rem  5/37.5rem;
+              background-color: #fff;
+              .new_title {
+                height: 40/37.5rem;
+                line-height: 15/27.5rem;
+                font-size: 14/37.5rem;
+                color: #333;
+                text-indent: 32/37.5rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+              }
+              .txt_in {
+                text-indent: 0;
+              }
+              .con_p {
+                color: #666;
+                font-size: 12/37.5rem;
+                line-height: 17/37.5rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+              }
+              .con_txt {
+                width: 100%;
+                padding-top: 3/37.5rem;
+                .buy_btn_la {
+                  font-size: 12/37.5rem;
+                  line-height: 17/37.5rem;
+                  color: #ef1315;
+                }
+                .free_btn_la {
+                  font-size: 12/37.5rem;
+                  line-height: 17/37.5rem;
+                  color: #0da62c;
+                }
+                .buymo_btn_la {
+                  font-size: 12/37.5rem;
+                  line-height: 17/37.5rem;
+                  color: #0095FF;
+                }
+                .moeny_num {
+                  display: block;
+                  color: #FF4539;
+                  font-weight: 800;
+                  font-size: 14/37.5rem;
+                  line-height: 22/37.5rem;
+                }
+              }
+            }
+
+            .new_icon {
+              width: 33/37.5rem;
+              position: absolute;
+              top: 0;
+              right: 2/37.5rem;
+            }
+          }
+        }
+      }
     }
   }
 }
